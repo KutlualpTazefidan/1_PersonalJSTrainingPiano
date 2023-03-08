@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     height: 100vh; /*full height of the viewport*/
-    align-content: center; /* req height */
+    align-items: center; /* req height */
 
 }
 
@@ -16,4 +16,22 @@ body{
     padding: 90px 30px 0 30px;
     background-color: rgb(74, 238, 238);
     border-radius: 10px;
+}
+
+.keys{
+    position: relative;
+}
+
+.white-keys{
+    display: flex;
+
+}
+
+.white-key{
+    width: 68px;
+    height: 280px;
+    border-radius: 0 0 5px 5px;
+    border: solid #000 2px; 
+    box-sizing: border-box;
+    background-color: #fff;
 }
