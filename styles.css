@@ -1,0 +1,19 @@
+body{
+    /* clean first look */
+    margin: 0;
+    padding: 0;
+
+    /* centering everything */
+    display: flex;
+    justify-content: center;
+    height: 100vh; /*full height of the viewport*/
+    align-content: center; /* req height */
+
+}
+
+#piano{
+    height: 290px;
+    padding: 90px 30px 0 30px;
+    background-color: rgb(74, 238, 238);
+    border-radius: 10px;
+}
